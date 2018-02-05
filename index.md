@@ -9,7 +9,7 @@
 * Should not: files/info that contain sensitive message and large-sized files. For example, private data file that hasn't been published.
 
 # Question 3
-**What are the commands to undo a commit?**
+**What are the commands to undo a commit?**    
 There are at least four ways to do this, depending on your purpose:
 1. This help you to go back to the x-number of commits counting back from the head, and make changes from there without losing commits in between.
 ```{r}
@@ -27,15 +27,15 @@ There are at least four ways to do this, depending on your purpose:
 ```
 3. This removes the last commit from git and also discards the changes you made in the file
 ```{r}
-> git --hard HEAD^
+> git reset --hard HEAD^
 ```
-**Be careful with the `--hard` command: this can at the same time throw away all your uncommitted changes in your working directory**
+**Be careful with the `--hard` command: this can at the same time throw away all your uncommitted changes in your working directory**       
 If you are removing multiple commits from the top, you can run this:
 ```{r}
 # to remove the last x-number of commits
 > git reset --hard HEAD~x
 ```
-4. This revert teh last commit from git, leaving a new entry in log, and discard the changes you made in the file
+4. This revert a commit from git, leaving a new entry in log, and discard the changes you made in the file
 ```{r}
 > git revert [--no-edit] <commit_ID>
 ```
@@ -46,7 +46,7 @@ git checkout master
 ```
 
 # Question 5
-**Your boss has no idea what Git is or why you are using it. Explain the pros / cons of using Git for your research project. Explain the pros / cons of hosting your project in a public (or private) repository on Github/Bitbucket/Gitlab/etc.**
+**Your boss has no idea what Git is or why you are using it. Explain the pros / cons of using Git for your research project. Explain the pros / cons of hosting your project in a public (or private) repository on Github/Bitbucket/Gitlab/etc.**    
 Using Git:
 * Pros:
   + Supports version control of your work
@@ -55,7 +55,7 @@ Using Git:
   + Good place for info/files storage
 * Cons
   + Takes some time for one to understand and get familiar with Git
-  + Cannot store large-sized files
+  + Cannot store large-sized files      
 Using public repository:
 * Pros:
   + Allows multiple developers to work on the same project
