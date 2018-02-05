@@ -4,8 +4,8 @@
 
 # Question 2
 **What kind of files/info should be saved in a Git repository? What types of files/info should not be included in a Git repo?**
-* Should: files/info that you would like to share with others (open source)
-* Should not: files/info 
+* Should: text-based files/info that you would like to share with others (open source). For example, codes, scripts etc.
+* Should not: files/info that contain sensitive message. For example, private data file that hasn't been published.
 
 # Question 3
 **What are the commands to undo a commit?**
