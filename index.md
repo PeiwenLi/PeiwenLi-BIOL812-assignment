@@ -10,7 +10,7 @@
 
 # Question 3
 **What are the commands to undo a commit?**    
-There are at least four ways to do this, depending on your purpose:
+There are at least four ways to do this, depending on what you want to do:
 1. This help you to go back to the x-number of commits counting back from the head, and make changes from there without losing commits in between.
 ```{r}
 # If you would like to go back to the 4th commit, which added a line "123" to the file "mars.txt"
