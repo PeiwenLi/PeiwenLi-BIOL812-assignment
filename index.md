@@ -55,7 +55,7 @@ Using Git:
   + Good place for info/files storage
 * Cons
   + Takes some time for one to understand and get familiar with Git
-  + Cannot store large-sized files      
+  + Cannot store large-sized files     
 Using public repository:
 * Pros:
   + Allows multiple developers to work on the same project
