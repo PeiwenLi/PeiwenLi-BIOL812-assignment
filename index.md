@@ -47,7 +47,7 @@ git checkout master
 
 # Question 5
 **Your boss has no idea what Git is or why you are using it. Explain the pros / cons of using Git for your research project. Explain the pros / cons of hosting your project in a public (or private) repository on Github/Bitbucket/Gitlab/etc.**    
-Using Git:
+*Using Git:*
 * Pros:
   + Supports version control of your work
   + Allows you to keep tracking changes in your work
@@ -56,7 +56,8 @@ Using Git:
 * Cons
   + Takes some time for one to understand and get familiar with Git
   + Cannot store large-sized files     
-Using public repository:
+
+*Using public repository:*
 * Pros:
   + Allows multiple developers to work on the same project
   + Provides a place to share your work/knowledge with other people
