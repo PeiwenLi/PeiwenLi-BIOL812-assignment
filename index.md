@@ -35,7 +35,7 @@ If you are removing multiple commits from the top, you can run this:
 # to remove the last x-number of commits
 > git reset --hard HEAD~x
 ```
-4. This revert a commit from git, leaving a new entry in log, and discard the changes you made in the file
+4. This reverts commit(s) from git, leaves a new entry in log, and discards the changes you made   
 ```{r}
 > git revert [--no-edit] <commit_ID>
 ```
