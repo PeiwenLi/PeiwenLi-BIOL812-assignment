@@ -39,7 +39,7 @@ If you are removing multiple commits from the top, you can run this:
 ```{r}
 > git revert [--no-edit] <commit_ID>
 ```
-# Queestion 4
+# Question 4
 **One of your repositories is in a “detached HEAD” state. How do you fix this?**
 ```{r}
 git checkout master
