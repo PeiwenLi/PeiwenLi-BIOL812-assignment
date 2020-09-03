@@ -53,7 +53,7 @@ git checkout master
   + Allows you to keep tracking changes in your work
   + Allows you to undo changes
   + Good place for info/files storage
-* Cons
+* Cons:
   + Takes some time for one to understand and get familiar with Git
   + Cannot store large-sized files     
 
